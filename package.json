@@ -1,6 +1,6 @@
 {
   "name": "@twexapi-dev/x-api-scraper-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fetch X/Twitter data from your terminal: search tweets, users, followers, DMs, trending, and publish Articles. Powered by TwexAPI.",
   "type": "module",
   "license": "MIT",
