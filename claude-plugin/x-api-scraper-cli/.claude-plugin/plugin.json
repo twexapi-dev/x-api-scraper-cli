@@ -1,0 +1,12 @@
+{
+  "name": "x-api-scraper-cli",
+  "version": "0.1.1",
+  "description": "Claude Code plugin that installs the TwexAPI CLI skill and a slash command for TwexAPI workflows.",
+  "author": {
+    "name": "twexapi-dev",
+    "url": "https://github.com/twexapi-dev"
+  },
+  "homepage": "https://github.com/twexapi-dev/x-api-scraper-cli",
+  "repository": "https://github.com/twexapi-dev/x-api-scraper-cli",
+  "license": "MIT"
+}

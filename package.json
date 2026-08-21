@@ -1,0 +1,37 @@
+{
+  "name": "x-api-scraper-cli",
+  "version": "0.1.1",
+  "description": "Command-line client for TwexAPI X/Twitter endpoints with saved app auth and profiles",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://twexapi.io/dashboard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twexapi-dev/x-api-scraper-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twexapi-dev/x-api-scraper-cli/issues"
+  },
+  "keywords": [
+    "x-api-scraper",
+    "twitter",
+    "x",
+    "cli",
+    "api"
+  ],
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "bin": {
+    "x-api-scraper": "./bin/x-api-scraper.js"
+  },
+  "scripts": {
+    "check": "node ./bin/x-api-scraper.js --help",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

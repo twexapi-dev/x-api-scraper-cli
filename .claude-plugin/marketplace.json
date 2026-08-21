@@ -1,0 +1,19 @@
+{
+  "name": "x-api-scraper-cli",
+  "owner": {
+    "name": "twexapi-dev",
+    "url": "https://github.com/twexapi-dev"
+  },
+  "plugins": [
+    {
+      "name": "x-api-scraper-cli",
+      "source": "./claude-plugin/x-api-scraper-cli",
+      "description": "Install the TwexAPI CLI skill and a slash command for TwexAPI workflows.",
+      "version": "0.1.1",
+      "author": {
+        "name": "twexapi-dev",
+        "url": "https://github.com/twexapi-dev"
+      }
+    }
+  ]
+}

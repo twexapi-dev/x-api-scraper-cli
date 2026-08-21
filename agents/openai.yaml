@@ -1,0 +1,7 @@
+interface:
+  display_name: "x-api-scraper CLI"
+  short_description: "Help with x-api-scraper CLI tasks and credential-aware workflows"
+  default_prompt: "Use $x-api-scraper-cli to install, configure, and run x-api-scraper commands in this repository, including its local config and environment-variable workflow."
+
+policy:
+  allow_implicit_invocation: true
