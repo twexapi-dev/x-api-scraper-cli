@@ -1,7 +1,7 @@
 {
-  "name": "x-api-scraper-cli",
+  "name": "@twexapi-dev/x-api-scraper-cli",
   "version": "0.1.1",
-  "description": "Command-line client for TwexAPI X/Twitter endpoints with saved app auth and profiles",
+  "description": "Fetch X/Twitter data from your terminal: search tweets, users, followers, DMs, trending, and publish Articles. Powered by TwexAPI.",
   "type": "module",
   "license": "MIT",
   "homepage": "https://twexapi.io/dashboard",
@@ -33,5 +33,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

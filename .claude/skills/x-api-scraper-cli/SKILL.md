@@ -31,7 +31,7 @@ Do not treat this skill as the main interface when the task is to edit the CLI s
 For normal users, prefer the published npm package:
 
 ```bash
-npm install -g x-api-scraper-cli
+npm install -g @twexapi-dev/x-api-scraper-cli
 x-api-scraper --help
 ```
 

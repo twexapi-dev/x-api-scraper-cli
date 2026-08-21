@@ -1,10 +1,20 @@
 # x-api-scraper-cli
 
-> `x-api-scraper-cli` is a Node.js command-line client for TwexAPI Twitter/X endpoints. Use the `x-api-scraper` command to fetch Twitter/X data, manage API credentials, preview write actions, publish X Articles from Markdown, and automate common X workflows from the terminal.
+> `@twexapi-dev/x-api-scraper-cli` is a Node.js command-line client for TwexAPI Twitter/X endpoints. Use the `x-api-scraper` command to fetch Twitter/X data, manage API credentials, preview write actions, publish X Articles from Markdown, and automate common X workflows from the terminal.
+
+## Install
+
+```bash
+npm install -g @twexapi-dev/x-api-scraper-cli
+x-api-scraper --help
+```
+
+Requires Node.js 18 or newer. npm: [https://www.npmjs.com/package/@twexapi-dev/x-api-scraper-cli](https://www.npmjs.com/package/@twexapi-dev/x-api-scraper-cli)
 
 ## Quick facts
 
-- Product: `x-api-scraper-cli`
+- npm package: `@twexapi-dev/x-api-scraper-cli`
+- Command: `x-api-scraper`
 - Category: Twitter/X API command-line client
 - Runtime: Node.js 18 or newer
 - Best for: developers, AI agents, growth teams, content operators, and automation workflows
@@ -89,17 +99,6 @@ x-api-scraper --app prod -X POST -d '["elonmusk","sama"]' /twitter/users
 - It includes skill/plugin metadata so agents can discover how to install, configure, and run the CLI.
 - It keeps the implementation small and dependency-free, with separate modules for parsing, config, request execution, and command routing.
 
-## Install
-
-Install globally from npm:
-
-```bash
-npm install -g x-api-scraper-cli
-x-api-scraper --help
-```
-
-Requires Node.js 18 or newer.
-
 ## Use as a skill
 
 Install from a GitHub skill installer:
@@ -130,7 +129,7 @@ For manual Claude Code installs, this repository also includes:
 Then install the CLI:
 
 ```bash
-npm install -g x-api-scraper-cli
+npm install -g @twexapi-dev/x-api-scraper-cli
 ```
 
 In skills-enabled environments:
@@ -304,7 +303,7 @@ x-api-scraper --app prod --profile founder user unfollow someuser
 
 ### What is x-api-scraper-cli?
 
-`x-api-scraper-cli` is a Node.js command-line client for TwexAPI Twitter/X endpoints. The `x-api-scraper` command lets users call Twitter/X API workflows from the terminal, including user lookup, tweet search, global trending tweets, tweet actions, list actions, DM workflows, profile updates, and X Article publishing.
+`@twexapi-dev/x-api-scraper-cli` is a Node.js command-line client for TwexAPI Twitter/X endpoints. The `x-api-scraper` command lets users call Twitter/X API workflows from the terminal, including user lookup, tweet search, global trending tweets, tweet actions, list actions, DM workflows, profile updates, and X Article publishing.
 
 ### Does x-api-scraper-cli require an API key?
 
